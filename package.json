@@ -1,0 +1,33 @@
+{
+  "name": "lockernote",
+  "version": "0.1.0",
+  "description": "LockerNote CLI and MCP server — a temporary locker for AI agents and humans. Stash text and files with a 6-character code; everything self-destructs on expiry.",
+  "type": "module",
+  "bin": {
+    "lockernote": "./bin/lockernote.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "cli",
+    "agent",
+    "handoff",
+    "temporary-storage",
+    "lockernote"
+  ],
+  "homepage": "https://lockernote.com/agent",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yatstudio/lockernote-cli.git"
+  },
+  "license": "MIT"
+}
